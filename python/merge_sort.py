@@ -26,12 +26,14 @@ def merge_sort(arr):
                 arr[k] = right_arr[j]
                 j = j + 1
 
-    return arr
+#    return arr
 
 
 if __name__ == "__main__":
     test = random.sample(range(1, 100), 10)
 
-    test = merge_sort(test)
+ #   test = 
+
+    merge_sort(test)
 
     print(test)
